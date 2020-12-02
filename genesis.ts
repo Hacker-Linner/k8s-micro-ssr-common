@@ -43,7 +43,7 @@ export const startApp = (renderer: Renderer) => {
             req,
             res,
             {
-                target: 'http://localhost:3001/ssr-home/',
+                target: `${process.env.SSR_HOME_TARGET || 'http://localhost:3001'}/ssr-home/`,
                 changeOrigin: true
             },
             (err) => {
@@ -59,7 +59,7 @@ export const startApp = (renderer: Renderer) => {
             req,
             res,
             {
-                target: 'http://localhost:3001/api/',
+                target: `${process.env.SSR_HOME_TARGET || 'http://localhost:3001'}/api/`,
                 changeOrigin: true
             },
             (err) => {
@@ -75,7 +75,7 @@ export const startApp = (renderer: Renderer) => {
             req,
             res,
             {
-                target: 'http://localhost:3002/ssr-about',
+                target: `${process.env.SSR_ABOUT_TARGET || 'http://localhost:3002'}/ssr-about/`,
                 changeOrigin: true
             },
             (err) => {
@@ -91,7 +91,7 @@ export const startApp = (renderer: Renderer) => {
             req,
             res,
             {
-                target: 'http://localhost:3002/api/',
+                target: `${process.env.SSR_ABOUT_TARGET || 'http://localhost:3002'}/api/`,
                 changeOrigin: true
             },
             (err) => {
