@@ -6,7 +6,7 @@
             :key="name"
             :clientFetch="() => clientFetch(name)"
             :serverFetch="() => serverFetch(name)"
-        ></remote-view>
+        />
     </div>
 </template>
 <script lang="ts">
