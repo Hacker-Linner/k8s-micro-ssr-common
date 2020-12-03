@@ -9,10 +9,10 @@
                     <router-link to="/about/us">> 关于我们</router-link>
                 </li>
                 <li class="list-item">
-                    <a href="https://github.com/Hacker-Linner/k8s-micro-ssr" target="_blank">Demo ：k8s-micro-ssr</a>
+                    <a href="https://github.com/Hacker-Linner/micro-ssr" target="_blank">Demo ：micro-ssr</a>
                 </li>
             </ul>
-            <h3>我是基础的页面聚合渲染微服务，包含公共导航 —— <a href="https://github.com/Hacker-Linner/k8s-micro-ssr-common" target="_blank">k8s-micro-ssr-common</a></h3>
+            <h3>我是基础的页面聚合渲染微服务，包含公共导航 —— <a href="https://github.com/Hacker-Linner/micro-ssr-common" target="_blank">micro-ssr-common</a></h3>
             
             <ul class="list">
                 <li class="list-item">
