@@ -56,7 +56,7 @@ export default Vue.extend<Data, Methods, Computed>({
         async clientFetch(ssrname: string) {
             const renderUrl = encodeURIComponent(this.$route.fullPath);
             const res = await axios.get(
-                `${process.env.SSR_DOMAIN || 'http://localhost:3000'}/api/${ssrname}/render`,
+                `https://micro-ssr.hacker-linner.com/api/${ssrname}/render`,
                 {
                     params: {
                         routerMode: 'history',
